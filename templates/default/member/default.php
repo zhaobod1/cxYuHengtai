@@ -33,9 +33,7 @@ $is_list = $dosql->GetOne("SELECT is_list FROM `#@__member` WHERE `id`='$user_id
 <body id="box">
 <!--Header Start-->
 <div id="header">
-	<?php $rand = mt_rand(0, 1000000); ?>
-	<a class="btn-block" href="galleryMultiple.html?x=<?php echo $rand; ?>">测试多图片上传功能</a>
-   <!--<p class="fh"><a href="JavaScript:window.history.back(-1);"><i class="fa fa-chevron-left"></i> 返回</a></p>-->
+  <!--<p class="fh"><a href="JavaScript:window.history.back(-1);"><i class="fa fa-chevron-left"></i> 返回</a></p>-->
    <h2>（<?php echo $dataname; ?>）-  项目选择</h2>
    <!--<p class="tel"><a href="/"><i class="fa fa-home"></i></a></p>-->
 </div>

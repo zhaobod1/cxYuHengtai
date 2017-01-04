@@ -1,24 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <title></title>
-    <link rel="stylesheet" href="huo15/css/common.css">
-    <script src="huo15/js/common.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <title>Hello H5+</title>
+    <script type="text/javascript" src="huo15/js/common.js"></script>
+
+    <link rel="stylesheet" href="huo15/css/common.css" type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="huo15/css/huo15ui.css">
     <script src="huo15/js/huo15ui.js"></script>
-    <link href="huo15/css/huo15ui.css" rel="stylesheet"/>
-    <style>
+    <style type="text/css">
         .aname {
             font-size: 16px;
-            text-overflow:ellipsis;
-            white-space:nowrap;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
+
         .ainf {
             font-size: 12px;
-            text-overflow:ellipsis;
-            white-space:nowrap;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
+
         .iplay {
             display: block;
             background: no-repeat right center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAKwwAACsMBNCkkqwAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8xMi8xM5w+I3MAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAD9UlEQVR4nO2b3XETMRRGDwzvoYOkg5hRAVkqiKmAdIA7wHSQVECoALsC1gXciV0BTge4gvCwgnHk9d/+WF8m97ztxrlXs8fS1Urym6enJxwd3uZugPMcFyKGCxHDhYjhQsRwIWK4EDFciBguRAwXIoYLEcOFiOFCxHAhYrgQMVyIGC5EDBcihgsRw4WI4ULEcCFiuBAx3uVuwDGY2XtgCBTAALjc8tEFMAdKYBJC+HOK9nXBm5dwUM7MCmAEXDcMMQVuQwhlV23qC2khZjYAboGrjkLOgFEIYd5RvM6RrSFmdgs80J0MYqyHGFsSuR4S60TJ9vrwCEziZ+YhhGXy/xdU9aWgqjfnW+IsgEKtvkgJiUPUPfUyZsD42DoQ68+Y+p62AG6UhjAZITt6xopq3L9vGf+Gqh6dJX+S6ilKNaRkU8YCGLSVARBjDGLMdS5jbgkkhMQiWyejSGtEG2KsghopKoU++5AV68ZDcrvXYWTH8Pghdz1R6CHpN3MFDPsc02PsYcy1qy0nJ6uQOANKZz+jfcOUmd3H6W1jYo5RcvsqtikbuXtI+kBmBxbwz8DczMZtksdcsz1tOinZhMRxPF2bGh8R4gz4amZLMxu2aEqa8zq2LQs5e0j6EB8bLv6dAz/NrGwyjMWcj3vadjJyCimS60nLeFfAbzO7bfANT3MXLdvSmJxCBsl12VHcL8AyvpkfSpo7bdvJyCkkfQfocv5/Bnw3s/mBs6Y097aFzd7JPcv6T5dv5GtcAr/2TZN7yt0IGSE908k0+RS8FiEvhhd1yKEFUw5YAVBApoe0XQrZwgL4GEIY7pLRU+5G5OwhC57PZgbAsqPYK6rdxUMXC9Npbro8fzJy9pB0qll0FPcOuDhCRl3ubEvwOYWUyXXb5YoZ1X7GqMHSfZq7bNmWxuQUki5XnDdc+n4EPoUQiiabSzFnejKl7TJOY7IJid/iaXJ7fESIFfCNas+9zQNMc05zHnjIPctKx/mrA9egflCJGLd5eDFXukGWdddQYU+95PlDWVE97GXPeS+oivf6saBZCKHoM+8+cvcQ2NyhOwMmfW4SxdgTNs9oZd0tBAEhsRDfJbcvgbIPKTtOnNzlPnECAkPWP8xsTv3ZrJ1v2UfmuKDqGRt5QgjZ9kDWyd5D1iioP1U4P3KzqZYYY5v0om38rpDpIeCHrUFMCPjPEeSE/COetf3SU/i7EEL2GVUdSjXkGfGBfWDzIFsb/q93dRizU2R7yDr+o09R/GfRzsmRrSGvFRcihgsRw4WI4ULEcCFiuBAxXIgYLkQMFyKGCxHDhYjhQsRwIWK4EDFciBguRAwXIoYLEcOFiOFCxHAhYrgQMf4CVuqCm+17t3sAAAAASUVORK5CYII=);
@@ -28,20 +33,152 @@
     </style>
 </head>
 <body>
+
 <header class="mui-bar mui-bar-nav">
     <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-    <h1 class="mui-title">火一五信息科技</h1>
+    <h1 class="mui-title">火一五信息科技有限公司</h1>
 </header>
-<div class="mui-content">
-    <div id="dcontent" class="dcontent">
-        <br/>
-        <div class="button" onclick="galleryImgsSelected()">从相册中多选图片(保存勾选记录)</div>
-        <br/>
+<div id="dcontent" class="dcontent">
+    <br/>
+    <div class="button" onclick="galleryImgsSelected()">从相册中多选图片(保存勾选记录)</div>
+    <br/>
 
-    </div>
 </div>
-
-<script src="huo15/js/immersed.js"></script>
-<script src="huo15/js/galleryMultiple.js"></script>
+<div id="output">
+    Gallery模块管理系统相册，如从相册中选择图片或视频文件、保存图片或视频文件到相册等功能。
+</div>
 </body>
+
+<script>
+
+    mui.init();
+    function plusReady(){
+        // 用户侧滑返回时关闭显示的图片
+        plus.webview.currentWebview().addEventListener( "popGesture", function(e){
+            if(e.type=="start"){
+                closeImg();
+            }
+        }, false );
+
+
+
+    }
+
+    document.addEventListener('plusready',plusReady,false);
+
+    function galleryImgs(){
+        // 从相册中选择图片
+        outSet("从相册中选择多张图片:");
+        plus.gallery.pick( function(e){
+            for(var i in e.files){
+                outLine(e.files[i]);
+                var path = e.files[i];
+                showImg(path);
+            }
+        }, function ( e ) {
+            outSet( "取消选择图片" );
+        },{filter:"image",multiple:true,system:false});
+    }
+
+
+
+
+
+
+
+
+    var lfs=null;// 保留上次选择图片列表
+    function galleryImgsSelected(){
+        // 从相册中选择图片
+        outSet("从相册中选择多张图片(限定最多选择3张):");
+        plus.gallery.pick( function(e){
+            lfs=e.files;
+            for(var i in e.files){
+
+
+                outLine(e.files[i]);
+                var path = e.files[i];
+
+
+            }
+            var w = plus.webview.create( "_www/index.html", "index",{},{
+                files:e.files
+            });
+            w.show();
+
+
+            
+        }, function ( e ) {
+            outSet( "取消选择图片" );
+        },{filter:"image",multiple:true,maximum:100,selected:null,system:false,onmaxed:function(){
+            plus.nativeUI.alert('最多只能选择100张图片');
+        }});// 最多选择3张图片
+
+
+    }
+    function showImg( url ){
+        // 兼容以“file:”开头的情况
+        if(0!=url.indexOf("file://")){
+            url="file://"+url;
+        }
+        var _body_ = document.body;
+        var _div_ = document.createElement("div");
+        _div_.style.top="0px";
+        _div_.style.left="0px";
+        _div_.style.height="100%";
+        _div_.style.width="100%";
+        _div_.style.zIndex="99999";
+        _div_.style.position="fixed";
+        _div_.style.background="#ffffff";
+        _div_.id="imgShow";
+        _div_.onclick=closeImg;
+        var _img_=document.createElement("img");
+        _img_.src=url;
+        _img_.style.width="100%";
+        _body_.appendChild(_div_);
+        _div_.appendChild(_img_);
+    }
+    function closeImg(){
+        var trnode=document.getElementById("imgShow");
+        trnode&&trnode.parentNode.removeChild(trnode);
+    }
+
+    var list=null,first=null;
+    document.addEventListener("DOMContentLoaded",function(){
+        list=document.getElementById("list");
+        first=document.getElementById("empty");
+    },false);
+    // 添加列表项
+    function createItem(path) {
+        var li = document.createElement("li");
+        li.className = "ditem";
+        li.innerHTML = '<span class="iplay"><font class="aname"></font><br/><font class="ainf"></font></span>';
+        li.setAttribute( "onclick", "displayMedia(this);" );
+        list.insertBefore( li, first.nextSibling );
+        var i = path.lastIndexOf("/");
+        if(i<0){
+            i = path.lastIndexOf("\\");
+        }
+        li.querySelector(".aname").innerText = path.substr(i+1);
+        li.querySelector(".ainf").innerText = path;
+        li.path = path;
+        // 设置空项不可见
+        first.style.display = "none";
+    }
+    // 清除列表记录
+    function cleanList() {
+        list.innerHTML = '<li id="empty" class="ditem-empty">无记录</li>';
+        empty = document.getElementById( "empty" );
+        // 删除音频文件
+        outSet( "清空选择照片记录：" );
+    }
+    // 返回后关闭图片显示
+    var _back=window.back;
+    window.back=function(){
+        closeImg();
+        _back();
+    };
+</script>
+<script type="text/javascript" src="huo15/js/immersed.js"></script>
+
 </html>
