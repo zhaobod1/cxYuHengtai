@@ -209,6 +209,11 @@ if (@$row) {
 				background-color: #056aa5;
 				border-radius: 3px;
 			}
+
+			#uploader {
+				display: none;
+
+			}
 		</style>
 		<div class="comment">
 			<?php $randHuo15 = mt_rand(0,10000); ?>
