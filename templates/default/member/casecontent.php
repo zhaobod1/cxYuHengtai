@@ -197,6 +197,12 @@ if (@$row) {
 				</div>
 			</div>
 		</div>
+
+
+
+
+
+
 		<!-- 火一五信息科技 huo15.com Created by apple on 2017/1/4. -->
 		<style>
 			.comment a.huo15-a {
@@ -215,11 +221,44 @@ if (@$row) {
 
 			}
 		</style>
+
+		<script>
+			document.addEventListener('plusready',plusReady,false);
+			function plusReady(){
+				$(".huo15-a").click(function (e) {
+					e.preventDefault();
+					var w = plus.webview.create( "_www/multiple.html", "multiple",{},{
+						//
+					});
+					w.show();
+				});
+
+				// 用户侧滑返回时关闭显示的图片
+				/*plus.webview.currentWebview().addEventListener( "popGesture", function(e){
+					if(e.type=="start"){
+						closeImg();
+					}
+				}, false );
+*/
+
+
+			}
+
+
+		</script>
 		<div class="comment">
-			<?php $randHuo15 = mt_rand(0,10000); ?>
-			<a class="huo15-a" href="./galleryMultiple.html?x=<?php echo $randHuo15; ?>">火一五图片上传插件</a>
+			<a class="huo15-a" href="JavaScript:;">火一五图片上传插件</a>
 		</div>
 		<!-- 火一五信息科技 huo15.com Created by apple on 2017/1/4. end -->
+
+
+
+
+
+
+
+
+
 		<!--留言表单-->
 		<div class="comment">
 			<h3>审核意见</h3>
