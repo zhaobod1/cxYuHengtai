@@ -223,13 +223,16 @@ if (@$row) {
 		</style>
 
 		<script>
+			var oParams = {
+				domain: "http://h5.huo15.com/cx", //设置网站地址
+				notify_url: "http://h5.huo15.com/cx/huo15/upload.php", //图片上传处理文件
+				return_url: "http://h5.huo15.com/cx/callback.php" //上传成功的地址
+			};
 			document.addEventListener('plusready',plusReady,false);
 			function plusReady(){
 				$(".huo15-a").click(function (e) {
 					e.preventDefault();
-					var w = plus.webview.create( "_www/multiple.html", "multiple",{},{
-						//
-					});
+					var w = plus.webview.create( "_www/multiple.html", "multiple",{},oParams);
 					w.show();
 				});
 
