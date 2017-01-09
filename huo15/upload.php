@@ -10,6 +10,11 @@
  */
 
 
+$id = $_GET['id'];
+
+
+
+
 $s=dirname(__FILE__); //获的服务器路劲
 $time =time();        //获得当前时间戳
 $base64files =$_POST['base64files'];
@@ -24,8 +29,9 @@ foreach ($base64files as $k => $v) {
 
 $dir=$s."/upload/";
 $file=scandir($dir);
+
 $respone = array(
-	"flag" => 1,
+	"flag" => 1, //flag=1表示上传成功。相册会自动跳转到  return_url
 	"datas" => $file
 
 );
